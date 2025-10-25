@@ -1,1 +1,5 @@
 @import "tailwindcss";
+.uno {
+  color: red;
+  font-size: 45rem;
+}
