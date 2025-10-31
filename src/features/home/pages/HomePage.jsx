@@ -2,8 +2,10 @@ import { Link } from 'react-router-dom'
 import CategoryCard from '../components/CategoryCard'
 import { tourCategories } from '@/assets/data/tourCategories.js'
 import { assets } from '@/assets/img'
+import { useState } from 'react';
 
 export default function HomePage() {
+    const [active, setActive] = useState(1);
     return (
         <>
             <section style={{ backgroundImage: `url(${assets.img_51})`, }} className='relative flex items-center justify-center h-screen bg-cover bg-center text-white'>
@@ -40,18 +42,19 @@ export default function HomePage() {
             </section>
             <main>
                 <section>
-                    <div>
-                        <div>
-                            <span>
+                    <div className='max-w-7xl w-full mx-auto px-4 flex flex-col justify-center'>
+                        <div className='flex flex-col items-center mb-8'>
+                            <span className='font-style text-3xl md:text-4xl'>
                                 Top Destination
                             </span>
-                            <h2>
+                            <h2 className='text-4xl md:text-5xl font-semibold leading-snug'>
                                 Our Featured Destination
                             </h2>
                         </div>
-                        <div>
+                        <div className='flex flex-col md:flex-row gap-4 h-[80vh] md:h-160'>
                             {tourCategories.map((cardCategory) => {
-                                return <CategoryCard key={cardCategory.id} category={cardCategory} />
+                                const isActive = active === cardCategory.id;
+                                return <CategoryCard key={cardCategory.id} category={cardCategory} isActive={isActive} onClick={() => setActive(cardCategory.id)}/>
                             })}
                         </div>
                     </div>
