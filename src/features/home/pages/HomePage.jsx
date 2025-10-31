@@ -43,8 +43,8 @@ export default function HomePage() {
             </section>
             <main>
                 <section>
-                    <div className='max-w-7xl w-full mx-auto px-4 flex flex-col justify-center'>
-                        <div className='flex flex-col items-center mb-8'>
+                    <div className='max-w-7xl w-full mx-auto px-4 flex flex-col justify-center items-center'>
+                        <div className='flex flex-col items-center mb-8 text-center'>
                             <span className='font-style text-3xl md:text-4xl'>
                                 Top Destination
                             </span>
@@ -58,6 +58,14 @@ export default function HomePage() {
                                 return <CategoryCard key={cardCategory.id} category={cardCategory} isActive={isActive} onClick={() => setActive(cardCategory.id)} />
                             })}
                         </div>
+                        <Link to='destination'
+                            className="relative inline-block bg-medium px-8 py-4 rounded-full overflow-hidden group cursor-pointer text-white mt-12"
+                        >
+                            <span className='absolute inset-0 bg-darkest rounded-full transform -translate-x-full transition-transform duration-500 ease-out group-hover:translate-x-0' />
+                            <span className='relative text-base z-10'>
+                                Explore Tours
+                            </span>
+                        </Link>
                     </div>
                 </section>
                 <section className='flex justify-center py-16'>
@@ -118,7 +126,7 @@ export default function HomePage() {
                             </div>
 
                             <Link
-                                className="relative inline-block bg-medium px-8 py-4 rounded-full overflow-hidden group cursor-pointer text-whie"
+                                className="relative inline-block bg-medium px-8 py-4 rounded-full overflow-hidden group cursor-pointer text-white"
                             >
                                 <span className='absolute inset-0 bg-darkest rounded-full transform -translate-x-full transition-transform duration-500 ease-out group-hover:translate-x-0' />
                                 <span className='relative text-base z-10'>
