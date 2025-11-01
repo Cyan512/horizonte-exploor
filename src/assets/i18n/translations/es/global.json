@@ -1,0 +1,49 @@
+{
+  "common.en": "Inglés",
+  "common.es": "Español",
+  "common.home": "Inicio",
+  "common.about": "Sobre Nosotros",
+  "common.destination": "Destinos",
+  "common.contact": "Contáctanos",
+
+  "common.bookNow": "Reservar Ahora",
+
+  "category.trekking": "Trekking y Caminatas",
+  "category.trekking.rainbowMountain": "Montaña de Siete Colores (Vinicunca)",
+  "category.trekking.palcoyo": "Montaña Palcoyo",
+  "category.trekking.humantay": "Laguna Humantay",
+  "category.trekking.salkantay": "Trekking a Salkantay",
+  "category.trekking.huchuyQosqo": "Huchuy Qosqo Trek",
+  "category.trekking.incaTrail": "Camino Inca",
+
+  "category.adventure": "Deportes de Aventura",
+  "category.adventure.atv": "Cuatrimotos en Maras y Moray",
+  "category.adventure.biking": "Ciclismo de Montaña en el Valle Sagrado",
+  "category.adventure.canopy": "Canopy / Zipline",
+  "category.adventure.rafting": "Rafting en el Río Urubamba",
+  "category.adventure.atvHiking": "Cuatrimotos + Caminata (Maras, Moray, Salineras)",
+  "category.adventure.canopyTrekking": "Canopy + Trekking",
+  "category.adventure.bikingRafting": "Bici + Rafting en el Valle Sagrado",
+
+  "category.nature": "Naturaleza y Aventura",
+  "category.nature.rainbowMountain": "Montaña de Siete Colores (Vinicunca)",
+  "category.nature.palcoyo": "Montaña Palcoyo",
+  "category.nature.humantay": "Laguna Humantay",
+  "category.nature.incaBridge": "Puente Inca Q’eswachaka",
+
+  "category.culture": "Cultura y Arqueología",
+  "category.culture.sacredValley": "Valle Sagrado de los Incas",
+  "category.culture.southValley": "Valle Sur de Cusco",
+  "category.culture.cityTour": "City Tour Cusco",
+  "category.culture.machupicchu": "Machu Picchu Full Day en Tren",
+  "category.culture.shortIncaTrail": "Camino Inca Corto Full Day",
+
+  "category.extreme": "Experiencias Extremas",
+  "category.extreme.atvMaras": "Cuatrimotos Maras – Moray – Salineras",
+  "category.extreme.mountainBiking": "Ciclismo de Montaña en el Valle Sagrado",
+  "category.extreme.rafting": "Rafting en el Río Urubamba",
+  "category.extreme.canopy": "Canopy / Zipline en el Valle Sagrado",
+  "category.extreme.skyLodge": "Sky Lodge Adventure – Cápsulas Colgantes",
+  "category.extreme.incaBridge": "Puente Inca Q’eswachaka",
+  "category.extreme.viaFerrata": "Vía Ferrata y Escalada en Roca"
+}

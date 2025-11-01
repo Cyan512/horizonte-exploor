@@ -1,0 +1,49 @@
+{
+  "common.en": "English",
+  "common.es": "Spanish",
+  "common.home": "Home",
+  "common.about": "About Us",
+  "common.destination": "Destinations",
+  "common.contact": "Contact Us",
+
+  "common.bookNow": "Book Now",
+
+  "category.trekking": "Trekking & Hikes",
+  "category.trekking.rainbowMountain": "Rainbow Mountain (Vinicunca)",
+  "category.trekking.palcoyo": "Palcoyo Mountain",
+  "category.trekking.humantay": "Humantay Lagoon",
+  "category.trekking.salkantay": "Salkantay Trek",
+  "category.trekking.huchuyQosqo": "Huchuy Qosqo Trek",
+  "category.trekking.incaTrail": "Classic Inca Trail",
+
+  "category.adventure": "Adventure Sports",
+  "category.adventure.atv": "ATV Tour in Maras and Moray",
+  "category.adventure.biking": "Mountain Biking in the Sacred Valley",
+  "category.adventure.canopy": "Canopy / Zipline",
+  "category.adventure.rafting": "Rafting on the Urubamba River",
+  "category.adventure.atvHiking": "ATV + Hike (Maras, Moray, Salineras)",
+  "category.adventure.canopyTrekking": "Canopy + Trekking Combo",
+  "category.adventure.bikingRafting": "Bike + Rafting in the Sacred Valley",
+
+  "category.nature": "Nature & Adventure",
+  "category.nature.rainbowMountain": "Rainbow Mountain (Vinicunca)",
+  "category.nature.palcoyo": "Palcoyo Mountain",
+  "category.nature.humantay": "Humantay Lagoon",
+  "category.nature.incaBridge": "Inca Bridge Q’eswachaka",
+
+  "category.culture": "Culture & Archaeology",
+  "category.culture.sacredValley": "Sacred Valley of the Incas",
+  "category.culture.southValley": "South Valley of Cusco",
+  "category.culture.cityTour": "Cusco City Tour",
+  "category.culture.machupicchu": "Machu Picchu Full Day by Train",
+  "category.culture.shortIncaTrail": "Short Inca Trail Full Day",
+
+  "category.extreme": "Extreme Experiences",
+  "category.extreme.atvMaras": "ATV Maras – Moray – Salineras",
+  "category.extreme.mountainBiking": "Mountain Biking in the Sacred Valley",
+  "category.extreme.rafting": "Rafting on the Urubamba River",
+  "category.extreme.canopy": "Canopy / Zipline in the Sacred Valley",
+  "category.extreme.skyLodge": "Sky Lodge Adventure – Hanging Capsules",
+  "category.extreme.incaBridge": "Inca Bridge Q’eswachaka",
+  "category.extreme.viaFerrata": "Via Ferrata & Rock Climbing"
+}

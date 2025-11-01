@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import { cn } from '@/shared/utils/tailwind-utils.js'
+import { useTranslation } from "react-i18next";
 
 export default function CategoryCard({ category, isActive, onClick }) {
+    const { t } = useTranslation();
     const { img, name, submenu } = category;
     return (
         <button onClick={onClick} className={cn("group relative flex-1 rounded-xl overflow-hidden transition-all duration-500 ease-in-out cursor-pointer focus:outline-none", isActive ? "flex-4" : "flex-1")}>
@@ -11,7 +13,7 @@ export default function CategoryCard({ category, isActive, onClick }) {
                 <div className={cn("absolute text-white transition-all duration-500", isActive ? "rotate-0 bottom-4 left-8 translate-y-0" : "origin-left md:-rotate-90 md:translate-y-10 md:bottom-8 left-8")}>
                     <div className="flex flex-col md:block text-start gap-0 md:gap-1">
                         <h3 className="text-2xl font-semibold whitespace-nowrap">
-                            {name}
+                            {t(name)}
                         </h3>
                         <span className="text-base whitespace-nowrap">
                             {submenu.length} List

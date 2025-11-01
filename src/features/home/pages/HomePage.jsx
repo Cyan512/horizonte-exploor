@@ -4,12 +4,14 @@ import { tourCategories } from '@/assets/data/tourCategories.js'
 import { assets } from '@/assets/img'
 import { useState } from 'react';
 import { MapPinCheckInside, Clock } from 'lucide-react';
+import { useTranslation } from "react-i18next";
 
 export default function HomePage() {
+    const { t } = useTranslation();
     const [active, setActive] = useState(1);
     return (
         <>
-            <section style={{ backgroundImage: `url(${assets.img_51})`, }} className='relative flex items-center justify-center h-screen bg-cover bg-center text-white'>
+            <section style={{ backgroundImage: `url(${assets.img_51})`, }} className='relative flex items-center justify-center min-h-screen bg-cover bg-center text-white'>
                 <div className='absolute inset-0 bg-black/50' />
                 <div className='z-50 max-w-7xl w-full px-4 flex items-center'>
                     <div className='flex-2 text-center md:text-left'>
