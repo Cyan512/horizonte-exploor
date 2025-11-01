@@ -11,14 +11,18 @@ export default function HomePage() {
     const [active, setActive] = useState(1);
     return (
         <>
-            <section style={{ backgroundImage: `url(${assets.img_51})`, }} className='relative flex items-center justify-center min-h-screen bg-cover bg-center text-white'>
+            <section
+  style={{ backgroundImage: `url(${assets.img_51})` }}
+  className="relative flex items-center justify-center min-h-screen bg-cover bg-center text-white py-20 md:py-32"
+>
+
                 <div className='absolute inset-0 bg-black/50' />
                 <div className='z-50 max-w-7xl w-full px-4 flex items-center'>
                     <div className='flex-2 text-center md:text-left'>
                         <span className='font-style text-3xl md:text-4xl'>
                             Get unforgetable pleasure with us
                         </span>
-                        <h1 className='text-5xl md:text-7xl leading-tight font-semibold'>
+                        <h1 className='text-5xl md:text-7xl leading-tight font-zsemibold'>
                             Let´s make your best trip with us
                         </h1>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start items-center mt-8">
