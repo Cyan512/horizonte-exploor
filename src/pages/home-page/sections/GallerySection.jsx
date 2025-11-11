@@ -5,7 +5,9 @@ export default function GallerySection() {
         <section>
             <div>
                 <div>
-                    <span>Make Your Tour More Pleasure</span>
+                    <span className="block text-title text-2xl sm:text-3xl lg:text-4xl font-style">
+                        Make Your Tour More Pleasure
+                    </span>
                     <h2>Recent Gallery</h2>
                 </div>
             </div>

@@ -5,7 +5,9 @@ export default function PopularToursSection() {
         <section>
             <div>
                 <div>
-                    <span>Best Place For You</span>
+                    <span className="block text-title text-2xl sm:text-3xl lg:text-4xl font-style">
+                        Best Place For You
+                    </span>
                     <h2>Most Popular Tour</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
