@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { assets } from "@/assets/img";
 import { Link } from "react-router-dom";
+import DestinationCardV1 from "@/components/card/DestinationCardV1";
 
 function DestinationPage() {
     const { t } = useTranslation("global");
@@ -31,8 +32,6 @@ function DestinationPage() {
                   ...dest,
                   category: selectedCategory,
               })) ?? []);
-
-    console.table(filteredByCategory);
 
     const destinations = filteredByCategory.filter((e) =>
         t(e.title).toLowerCase().includes(searchTerm.toLowerCase())
@@ -99,34 +98,7 @@ function DestinationPage() {
                             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                                 {paginatedDestinations.length > 0 ? (
                                     paginatedDestinations.map((e, index) => (
-                                        <div key={index}>
-                                            <figure>
-                                                <img src={assets[e.img]} />
-                                            </figure>
-                                            <div className="p-6">
-                                                <h3>{t(e.title)}</h3>
-                                                <div>
-                                                    <div></div>
-                                                    <span></span>
-                                                </div>
-                                                <div>
-                                                    <span></span>
-                                                    <span></span>
-                                                </div>
-                                                <div>
-                                                    <div>
-                                                        <Clock />
-                                                        <span></span>
-                                                    </div>
-                                                    <Link
-                                                        to={`/destinations/${e.category}/${e.path}`}
-                                                    >
-                                                        {t("learnMore")}
-                                                        <ArrowRight />
-                                                    </Link>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <DestinationCardV1 key={index} destination={e} />
                                     ))
                                 ) : (
                                     <div>No destinations found.</div>
