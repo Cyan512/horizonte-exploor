@@ -6,17 +6,17 @@ export const TourMockV1 = [
             {
                 title: "category1.destination1",
                 img: "img_6",
-                path: "category1-destination1"
+                path: "category1-destination1",
             },
             {
                 title: "category1.destination2",
                 img: "img_7",
-                path: "category1-destination2"
+                path: "category1-destination2",
             },
             {
                 title: "category1.destination3",
                 img: "img_8",
-                path: "category1-destination3"
+                path: "category1-destination3",
             },
         ],
     },
@@ -27,17 +27,17 @@ export const TourMockV1 = [
             {
                 title: "category1.destination4",
                 img: "img_9",
-                path: "category1-destination4"
+                path: "category1-destination4",
             },
             {
                 title: "category1.destination5",
                 img: "img_10",
-                path: "category1-destination5"
+                path: "category1-destination5",
             },
             {
                 title: "category1.destination6",
                 img: "img_11",
-                path: "category1-destination6"
+                path: "category1-destination6",
             },
         ],
     },
@@ -48,17 +48,17 @@ export const TourMockV1 = [
             {
                 title: "category1.destination7",
                 img: "img_12",
-                path: "category1-destination7"
+                path: "category1-destination7",
             },
             {
                 title: "category1.destination8",
                 img: "img_13",
-                path: "category1-destination8"
+                path: "category1-destination8",
             },
             {
                 title: "category1.destination9",
                 img: "img_14",
-                path: "category1-destination9"
+                path: "category1-destination9",
             },
         ],
     },
@@ -69,17 +69,17 @@ export const TourMockV1 = [
             {
                 title: "category1.destination10",
                 img: "img_15",
-                path: "category1-destination10"
+                path: "category1-destination10",
             },
             {
                 title: "category1.destination11",
                 img: "img_16",
-                path: "category1-destination11"
+                path: "category1-destination11",
             },
             {
                 title: "category1.destination12",
                 img: "img_17",
-                path: "category1-destination12"
+                path: "category1-destination12",
             },
         ],
     },
@@ -90,17 +90,17 @@ export const TourMockV1 = [
             {
                 title: "category1.destination13",
                 img: "img_18",
-                path: "category1-destination13"
+                path: "category1-destination13",
             },
             {
                 title: "category1.destination14",
                 img: "img_19",
-                path: "category1-destination14"
+                path: "category1-destination14",
             },
             {
                 title: "category1.destination15",
                 img: "img_20",
-                path: "category1-destination15"
+                path: "category1-destination15",
             },
         ],
     },

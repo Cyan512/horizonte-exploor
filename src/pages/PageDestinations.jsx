@@ -19,9 +19,24 @@ function DestinationPage() {
         value: t(e.title),
     }));
 
-    const filteredByCategory = selectedCategory === "all" ? TourMockV1.flatMap((e) => e.destinationV1) : (TourMockV1.find((e) => e.title === selectedCategory)?.destinationV1 ?? []);
+    const filteredByCategory =
+        selectedCategory === "all"
+            ? TourMockV1.flatMap((cat) =>
+                  cat.destinationV1.map((dest) => ({
+                      ...dest,
+                      category: cat.title,
+                  }))
+              )
+            : (TourMockV1.find((e) => e.title === selectedCategory)?.destinationV1.map((dest) => ({
+                  ...dest,
+                  category: selectedCategory,
+              })) ?? []);
 
-    const destinations = filteredByCategory.filter((e) => t(e.title).toLowerCase().includes(searchTerm.toLowerCase()));
+    console.table(filteredByCategory);
+
+    const destinations = filteredByCategory.filter((e) =>
+        t(e.title).toLowerCase().includes(searchTerm.toLowerCase())
+    );
 
     const totalPages = Math.ceil(destinations.length / ITEMS_PER_PAGE);
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
@@ -31,7 +46,7 @@ function DestinationPage() {
     const handleSearch = () => {
         setSearchTerm(inputValue);
         setCurrentPage(1);
-    }
+    };
 
     return (
         <>
@@ -53,26 +68,24 @@ function DestinationPage() {
                             />
                             <button
                                 onClick={handleSearch}
-                                className="absolute right-2 p-3 bg-primary hover:bg-title text-white rounded-full transition-colors shadow-sm cursor-pointer">
-                                <Search
-                                    size={22}
-                                    strokeWidth={2.5}
-                                />
+                                className="absolute right-2 p-3 bg-primary hover:bg-title text-white rounded-full transition-colors shadow-sm cursor-pointer"
+                            >
+                                <Search size={22} strokeWidth={2.5} />
                             </button>
                         </div>
                         <div className="w-full lg:w-auto">
                             <select
                                 id="category-select"
                                 value={selectedCategory}
-                                onChange={(e) => { setSelectedCategory(e.target.value); setCurrentPage(1) }}
+                                onChange={(e) => {
+                                    setSelectedCategory(e.target.value);
+                                    setCurrentPage(1);
+                                }}
                                 className="w-full lg:w-64 px-3 py-2 outline-none border border-gray-200 rounded-lg"
                             >
                                 <option value="all">{t("common.all")}</option>
                                 {categories.map((e) => (
-                                    <option
-                                        key={e.key}
-                                        value={e.key}
-                                    >
+                                    <option key={e.key} value={e.key}>
                                         {t(e.value)}
                                     </option>
                                 ))}
@@ -84,80 +97,76 @@ function DestinationPage() {
                     <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-4 gap-8 mt-8">
                         <div className="lg:col-span-3">
                             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                                {paginatedDestinations.length > 0
-                                    ? (
-                                        paginatedDestinations.map((e, index) => (
-                                            <div key={index} >
-                                                <figure >
-                                                    <img src={assets[e.img]} />
-                                                </figure>
-                                                <div className="p-6">
-                                                    <h3>
-                                                        {t(e.title)}
-                                                    </h3>
-                                                    <div>
-                                                        <div>
-                                                        </div>
-                                                        <span></span>
-                                                    </div>
-                                                    <div>
-                                                        <span></span>
-                                                        <span></span>
-                                                    </div>
-                                                    <div>
-                                                        <div>
-                                                            <Clock />
-                                                            <span></span>
-                                                        </div>
-                                                        <Link>
-                                                            {t("learnMore")}
-                                                            <ArrowRight />
-                                                        </Link>
-                                                    </div>
+                                {paginatedDestinations.length > 0 ? (
+                                    paginatedDestinations.map((e, index) => (
+                                        <div key={index}>
+                                            <figure>
+                                                <img src={assets[e.img]} />
+                                            </figure>
+                                            <div className="p-6">
+                                                <h3>{t(e.title)}</h3>
+                                                <div>
+                                                    <div></div>
+                                                    <span></span>
                                                 </div>
-                                            </div>)))
-                                    : (
-                                        <div>No destinations found.</div>
-                                    )
-                                }
+                                                <div>
+                                                    <span></span>
+                                                    <span></span>
+                                                </div>
+                                                <div>
+                                                    <div>
+                                                        <Clock />
+                                                        <span></span>
+                                                    </div>
+                                                    <Link
+                                                        to={`/destinations/${e.category}/${e.path}`}
+                                                    >
+                                                        {t("learnMore")}
+                                                        <ArrowRight />
+                                                    </Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ))
+                                ) : (
+                                    <div>No destinations found.</div>
+                                )}
                             </div>
 
-
-                            {
-                                destinations.length > 0 && (
-                                    <div>
-                                        <button
-                                            onClick={() => setCurrentPage((e) => Math.max(e - 1, 1))}
-                                            disabled={currentPage === 1}
-                                        >
-                                            prev
-                                        </button>
-                                        {Array.from({ length: totalPages }).map((_, index) => {
-                                            const page = index + 1;
-                                            return (
-                                                <button
-                                                    key={page}
-                                                    onClick={() => setCurrentPage(page)}
-                                                >
-                                                    {page}
-                                                </button>
-                                            )
-                                        })}
-                                        <button
-                                            onClick={() => setCurrentPage((e) => Math.min(e + 1, totalPages))}
-                                            disabled={currentPage === totalPages}
-                                        >
-                                            next
-                                        </button>
-                                    </div>
-                                )
-                            }
+                            {destinations.length > 0 && (
+                                <div>
+                                    <button
+                                        onClick={() => setCurrentPage((e) => Math.max(e - 1, 1))}
+                                        disabled={currentPage === 1}
+                                    >
+                                        prev
+                                    </button>
+                                    {Array.from({
+                                        length: totalPages,
+                                    }).map((_, index) => {
+                                        const page = index + 1;
+                                        return (
+                                            <button key={page} onClick={() => setCurrentPage(page)}>
+                                                {page}
+                                            </button>
+                                        );
+                                    })}
+                                    <button
+                                        onClick={() =>
+                                            setCurrentPage((e) => Math.min(e + 1, totalPages))
+                                        }
+                                        disabled={currentPage === totalPages}
+                                    >
+                                        next
+                                    </button>
+                                </div>
+                            )}
                         </div>
                         <div className="lg:col-span-1"></div>
                     </div>
                 </section>
-            </main >
+            </main>
         </>
-    )
+    );
 }
 export default DestinationPage;

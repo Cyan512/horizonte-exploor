@@ -9,9 +9,9 @@ export default function PageTourDetail() {
     const { t } = useTranslation(tourSlug);
 
     // buscar el tour en el mock
-    const tour = TourMockV1
-        .find(e => e.title === category)
-        ?.destinationV1.find(d => d.path === tourSlug);
+    const tour = TourMockV1.find((e) => e.title === category)?.destinationV1.find(
+        (d) => d.path === tourSlug
+    );
 
     if (!tour) {
         return <p>Tour no encontrado</p>;
@@ -19,9 +19,7 @@ export default function PageTourDetail() {
 
     return (
         <section>
-            <h1 >
-                {t("title")}
-            </h1>
+            <h1>{t("title")}</h1>
         </section>
     );
 }
