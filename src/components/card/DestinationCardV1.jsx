@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 function DestinationCardV1({ data }) {
     const { t } = useTranslation("global");
     return (
-        <div className="group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-slate-200 max-w-sm">
-            <div className="relative h-48 overflow-hidden">
+        <div className="group bg-white rounded-lg overflow-hidden transition-all duration-300 border border-slate-300 max-w-sm">
+            <div className="relative h-52 overflow-hidden">
                 <img
                     src={assets[data.img]}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -16,7 +16,7 @@ function DestinationCardV1({ data }) {
                 <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent"></div>
                 {data.discount && (
                     <div className="absolute top-3 left-3 bg-red-600 text-white px-3 py-1 rounded text-xs font-semibold">
-                        -{data.discount} OFF
+                        -{data.discount} %
                     </div>
                 )}
                 <div className="absolute bottom-3 left-3 right-3 text-white">

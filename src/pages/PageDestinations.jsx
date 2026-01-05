@@ -1,10 +1,11 @@
 import { TourMockV1 } from "@/data/TourMockV1";
-import { ArrowRight, Clock, Search } from "lucide-react";
+import { ArrowRight, ChevronLeft, ChevronRight, Clock, Search } from "lucide-react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { assets } from "@/assets/img";
 import { Link } from "react-router-dom";
 import DestinationCardV1 from "@/components/card/DestinationCardV1";
+import { cn } from "@/shared/utils/tailwind-utils";
 
 function DestinationPage() {
     const { t } = useTranslation("global");
@@ -106,19 +107,28 @@ function DestinationPage() {
                             </div>
 
                             {destinations.length > 0 && (
-                                <div>
+                                <div className="flex flex-wrap justify-center gap-2 mt-8">
                                     <button
                                         onClick={() => setCurrentPage((e) => Math.max(e - 1, 1))}
                                         disabled={currentPage === 1}
+                                        className="px-3 py-1 disabled:opacity-50"
                                     >
-                                        prev
+                                        <ChevronLeft className="text-primary cursor-pointer" />
                                     </button>
                                     {Array.from({
                                         length: totalPages,
                                     }).map((_, index) => {
                                         const page = index + 1;
                                         return (
-                                            <button key={page} onClick={() => setCurrentPage(page)}>
+                                            <button
+                                                key={page}
+                                                onClick={() => setCurrentPage(page)}
+                                                className={cn(
+                                                    "px-4 py-2 border border-slate-300 rounded-full cursor-pointer",
+                                                    currentPage === page &&
+                                                        "bg-primary border-none text-white"
+                                                )}
+                                            >
                                                 {page}
                                             </button>
                                         );
@@ -128,8 +138,9 @@ function DestinationPage() {
                                             setCurrentPage((e) => Math.min(e + 1, totalPages))
                                         }
                                         disabled={currentPage === totalPages}
+                                        className="px-3 py-1 disabled:opacity-50"
                                     >
-                                        next
+                                        <ChevronRight className="text-primary cursor-pointer" />
                                     </button>
                                 </div>
                             )}
