@@ -1,5 +1,5 @@
 {
-    "category1.destination1": "3 Días / 2 Noches – Cusco & Machu Picchu ",
+    "category1.destination1": "Cusco & Machu Picchu ",
     "category1.destination2": "Tour a Waqrapukara",
     "category1.destination3": "Tour de Parapente en el Valle Sagrado",
     "category1.destination4": "Tour en Cuatrimotos (Maras – Moray – Salineras)",
@@ -13,7 +13,7 @@
     "category1.destination12": "Cusco Los 6 Mejores Días",
     "category1.destination13": "Tour 7 Lagunas de Ausangate – Full Day",
     "category1.destination14": "Tour Machu Picchu Full Day desde Cusco",
-    "category1.destination15": "Tour Salkantay Trek a Machu Picchu – 5 Días / 4 Noches",
+    "category1.destination15": "Tour Salkantay Trek a Machu Picchu",
     "category1": "Categoria 1",
     "category2": "Categoria 2",
     "category3": "Categoria 3",
@@ -21,5 +21,9 @@
     "category5": "Categoria 5",
     "common.all": "Todos",
     "common.destinations": "Destinos",
+    "common.day.singular": "Día",
+    "common.day.plural": "Días",
+    "common.night.singular": "Noche",
+    "common.night.plural": "Noches",
     "learnMore": "Conoce más"
 }

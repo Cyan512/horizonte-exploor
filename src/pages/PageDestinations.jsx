@@ -98,7 +98,7 @@ function DestinationPage() {
                             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                                 {paginatedDestinations.length > 0 ? (
                                     paginatedDestinations.map((e, index) => (
-                                        <DestinationCardV1 key={index} destination={e} />
+                                        <DestinationCardV1 key={index} data={e} />
                                     ))
                                 ) : (
                                     <div>No destinations found.</div>

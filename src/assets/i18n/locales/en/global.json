@@ -1,5 +1,5 @@
 {
-    "category1.destination1": "3 Days / 2 Nights – Cusco & Machu Picchu",
+    "category1.destination1": "Cusco & Machu Picchu",
     "category1.destination2": "Waqrapukara Tour",
     "category1.destination3": "Sacred Valley Paragliding Tour",
     "category1.destination4": "ATV Tour (Maras – Moray – Salt Mines)",
@@ -13,7 +13,7 @@
     "category1.destination12": "Cusco The Best 6 Days",
     "category1.destination13": "7 Lakes of Ausangate Tour – Full Day",
     "category1.destination14": "Machu Picchu Full Day Tour from Cusco",
-    "category1.destination15": "Salkantay Trek to Machu Picchu – 5 Days / 4 Nights",
+    "category1.destination15": "Salkantay Trek to Machu Picchu",
     "category1": "Category 1",
     "category2": "Category 2",
     "category3": "Category 3",
@@ -21,5 +21,9 @@
     "category5": "Category 5",
     "common.all": "All",
     "common.destinations": "Destinations",
+    "common.day.singular": "Day",
+    "common.day.plural": "Days",
+    "common.night.singular": "Night",
+    "common.night.plural": "Nights",
     "learnMore": "Learn More"
 }
