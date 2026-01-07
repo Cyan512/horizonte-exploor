@@ -14,7 +14,7 @@ function DestinationPage() {
     const [searchTerm, setSearchTerm] = useState("");
     const [currentPage, setCurrentPage] = useState(1);
 
-    const ITEMS_PER_PAGE = 6;
+    const ITEMS_PER_PAGE = 9;
 
     const categories = TourMockV1.map((e) => ({
         key: e.title,
