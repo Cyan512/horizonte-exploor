@@ -1,3 +1,77 @@
 {
-    "title": "Tour en Cuatrimotos (Maras – Moray – Salineras)"
+    "title": "Tour en Cuatrimotos (Maras – Moray – Salineras)",
+    "img": "img_19",
+    "content": [
+        {
+            "title": "",
+            "description": []
+        }
+    ],
+    "days": [
+        {
+            "day": 1,
+            "title": "Inicio del Tour – Cusco",
+            "description": [
+                "Recojo de los hoteles del centro histórico de Cusco",
+                "Salida hacia la comunidad de Cruzpata (a unos 50 minutos de la ciudad)",
+                "El guía brinda instrucciones de seguridad y una breve práctica de manejo de cuatrimotos"
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Inicio de la Aventura",
+            "description": [
+                "Comienza la travesía en cuatrimotos por caminos rurales rodeados de campos agrícolas, montañas nevadas y paisajes del Valle Sagrado.",
+                "Durante el recorrido, se disfruta una vista panorámica espectacular del nevado Verónica y las montañas de los Andes."
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Primera Parada – Moray",
+            "description": [
+                "Visita al sitio arqueológico de Moray, conocido como el “Laboratorio Agrícola de los Incas”.",
+                "El guía explicará cómo los Incas realizaron experimentos agrícolas aprovechando los microclimas de sus terrazas circulares.",
+                "Tiempo para explorar y tomar fotografías."
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Segunda Parada – Salineras de Maras",
+            "description": [
+                "Continuando el recorrido, se visita las impresionantes Salineras de Maras, un conjunto de más de 3,000 pozos de sal que se siguen explotando de forma tradicional.",
+                "Tiempo libre para disfrutar del paisaje, tomar fotos y adquirir productos locales."
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Retorno a Cusco",
+            "description": [
+                "Regreso en cuatrimotos a Cruzpata, donde espera el transporte para retornar a Cusco.",
+                "Llegada aproximada al centro histórico."
+            ]
+        }
+    ],
+    "tourDetails": {
+        "includes": [
+            "Transporte turístico (Cusco – Cruzpata – Cusco)",
+            "Cuatrimoto por persona",
+            "Casco de seguridad",
+            "Guía profesional en español/inglés",
+            "Instrucciones de manejo y seguridad"
+        ],
+        "excludes": [
+            "Entradas a Moray y Salineras",
+            "Seguro personal de viaje",
+            "Alimentación y bebidas"
+        ]
+    },
+    "recommendations": {
+        "schedule": [
+            "Llevar bloqueador solar, gorro y lentes de sol",
+            "Ropa cómoda y abrigo ligero",
+            "Documento de identidad o pasaporte",
+            "Zapatos cerrados",
+            "Cámara o GoPro"
+        ]
+    }
 }

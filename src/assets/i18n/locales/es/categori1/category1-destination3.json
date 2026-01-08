@@ -1,3 +1,73 @@
 {
-    "title": "Tour de Parapente en el Valle Sagrado"
+    "title": "Tour de Parapente en el Valle Sagrado",
+    "img": "img_3",
+    "content": [
+        {
+            "title": "",
+            "description": []
+        }
+    ],
+    "days": [
+        {
+            "day": 1,
+            "title": "Inicio del Tour – Cusco",
+            "description": [
+                "Recojo de los hoteles del centro histórico de Cusco.",
+                "Salida hacia el Valle Sagrado de los Incas, rumbo a la zona de Cruzpata o Chinchero, lugar ideal para realizar vuelos por sus condiciones de viento favorables.",
+                "Durante el trayecto se disfruta de vistas espectaculares de los nevados Verónica y Chicón, además de los paisajes agrícolas del valle."
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Llegada al Punto de Despegue",
+            "description": [
+                "Breve charla de instrucciones y seguridad a cargo del piloto profesional.",
+                "Entrega del equipo de vuelo: arnés, casco y paracaídas biplaza (vuelo con instructor).",
+                "El guía explicará cómo despegar, volar y aterrizar de forma segura."
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Inicio del Vuelo en Parapente",
+            "description": [
+                "Comienza la experiencia más emocionante del tour.",
+                "Vuelo de 15 a 25 minutos aproximadamente, dependiendo de las condiciones del viento.",
+                "Durante el vuelo podrás admirar desde el aire los pueblos andinos, terrazas incas, montañas y el Valle Sagrado en todo su esplendor.",
+                "Opción de video o fotos GoPro (según paquete contratado)."
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Aterrizaje y Retorno",
+            "description": [
+                "Después del aterrizaje seguro, tiempo libre para tomar fotografías, descansar y compartir la experiencia.",
+                "Posteriormente, retorno en transporte turístico a la ciudad del Cusco."
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Fin del Tour",
+            "description": ["Llegada al centro histórico de Cusco."]
+        }
+    ],
+    "tourDetails": {
+        "includes": [
+            "Transporte turístico ida y vuelta",
+            "Vuelo en parapente biplaza con instructor certificado",
+            "Equipo completo de seguridad (casco, arnés, paracaídas)",
+            "Guía de apoyo y asistencia personalizada",
+            "Breve instrucción antes del vuelo",
+            "Seguro básico de accidentes"
+        ],
+        "excludes": ["Alimentación", "Video o fotos (servicio opcional adicional)", "Propinas"]
+    },
+    "recommendations": {
+        "schedule": [
+            "Llevar ropa cómoda y abrigadora (casaca cortaviento)",
+            "Zapatos cerrados o de trekking",
+            "Bloqueador solar y gafas de sol",
+            "Cámara o GoPro",
+            "No recomendable para personas con miedo a las alturas"
+        ]
+    }
 }

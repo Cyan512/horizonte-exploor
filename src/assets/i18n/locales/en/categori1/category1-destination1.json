@@ -1,3 +1,79 @@
 {
-    "title": "3 Days / 2 Nights – Cusco & Machu Picchu"
+    "title": "3 Days / 2 Nights – Cusco & Machu Picchu",
+    "img": "img_15",
+    "content": [
+        {
+            "title": "Cusco City Tour",
+            "description": [
+                "Discover the cultural and architectural richness of the former capital of the Inca Empire with our Cusco City Tour. This experience is designed to immerse you in the history, traditions, and grandeur of the city’s main attractions and its surroundings.",
+                "During the tour, you will visit sacred temples, impressive Inca fortresses, and colonial constructions that reflect the fusion of two cultures. Accompanied by a professional guide, you will learn fascinating details about each site while enjoying a unique landscape in the heart of the Andes.",
+                "Get ready for an experience full of history, culture, and awe in every corner of Cusco."
+            ]
+        }
+    ],
+    "days": [
+        {
+            "day": 1,
+            "title": "Welcome and Cusco City Tour",
+            "subtitle": "Machu Picchu",
+            "description": [
+                "Machu Picchu, known as one of the New Seven Wonders of the World, is the most impressive legacy of the Inca civilization. Located atop a majestic mountain at 2,430 meters above sea level, this citadel combines architecture, history, and nature in a truly unique setting.",
+                "Discovered in 1911, Machu Picchu continues to captivate travelers from around the world with its mystical beauty and architectural perfection. During your visit, you will explore its temples, agricultural terraces, ceremonial enclosures, and viewpoints offering unparalleled views of the Andean landscape.",
+                "Every corner of Machu Picchu tells a story that takes you back to Inca times, making this experience an unforgettable memory."
+            ],
+            "schedule": [
+                "07:00 – 11:00: Arrival in Cusco and transfer to the hotel. Time for acclimatization.",
+                "13:00 – 18:30: City Tour: Cathedral, Qoricancha (Temple of the Sun), Sacsayhuamán, Qenqo, Puka Pukara, and Tambomachay.",
+                "Night: Free dinner and overnight stay in Cusco."
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Machu Picchu – Wonder of the World",
+            "subtitle": "Machu Picchu",
+            "description": [
+                "Machu Picchu, known as one of the New Seven Wonders of the World, is the most impressive legacy of the Inca civilization. Located atop a majestic mountain at 2,430 meters above sea level, this citadel blends architecture, history, and nature in a unique setting.",
+                "Discovered in 1911, Machu Picchu continues to amaze travelers from all over the world with its mystical beauty and architectural perfection. During your visit, you will explore its temples, agricultural terraces, ceremonial areas, and viewpoints offering unmatched views of the Andean landscape.",
+                "Every corner of Machu Picchu tells a story that transports you back to Inca times, making this experience truly unforgettable."
+            ],
+            "schedule": [
+                "04:00: Transfer to Ollantaytambo.",
+                "06:00: Panoramic train to Aguas Calientes.",
+                "07:30: Bus ride to Machu Picchu.",
+                "08:00 – 11:00: Guided tour of Machu Picchu (approx. 2 hours).",
+                "12:00 – 14:00: Free time in the citadel.",
+                "16:00: Return by train and transfer back to Cusco.",
+                "Night: Rest and overnight stay in Cusco."
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Sacred Valley and Return",
+            "subtitle": "",
+            "description": [],
+            "schedule": [
+                "07:00 – 16:00: Sacred Valley excursion: Pisac, Urubamba (buffet lunch), Ollantaytambo.",
+                "16:30: Return to Cusco and transfer to the airport."
+            ]
+        }
+    ],
+    "tourDetails": {
+        "includes": [
+            "Airport – hotel – airport transfers",
+            "Tourist transportation during the tours",
+            "Entrance tickets (Tourist Ticket and Machu Picchu)",
+            "Panoramic train to Machu Picchu",
+            "Professional Spanish-speaking guide",
+            "2 nights hotel accommodation in Cusco with breakfast",
+            "Buffet lunch in the Sacred Valley"
+        ],
+        "excludes": ["Meals not mentioned", "Alcoholic beverages and snacks", "Tips"]
+    },
+    "recommendations": {
+        "schedule": [
+            "Wear comfortable clothing, sunscreen, a hat, and bring a camera.",
+            "Carry your ID or passport.",
+            "Arrive at least 24 hours before the tour for acclimatization."
+        ]
+    }
 }
