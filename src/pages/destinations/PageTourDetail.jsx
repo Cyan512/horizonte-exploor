@@ -19,6 +19,7 @@ export default function PageTourDetail() {
     const contents = t("content", { returnObjects: true });
     const days = t("days", { returnObjects: true });
     const tourDetails = t("tourDetails", { returnObjects: true });
+    const recommendations = t("recommendations", { returnObjects: true });
 
     if (!tour) {
         return <p>Tour no encontrado</p>;
@@ -197,6 +198,22 @@ export default function PageTourDetail() {
                                     </tbody>
                                 </table>
                             </div>
+                            <h2 className="font-family-heading text-3xl sm:text-4xl font-semibold text-title leading-tight">
+                                {tGlobal("common.recommendations")}
+                            </h2>
+                            {Array.isArray(recommendations?.schedule) && (
+                                <ul className="space-y-3 rounded-lg p-4 sm:p-6 border border-slate-200 bg-white">
+                                    {recommendations.schedule.map((item, index) => (
+                                        <li
+                                            key={index}
+                                            className="flex items-start gap-3 text-sm sm:text-base leading-relaxed"
+                                        >
+                                            <CircleCheckBig className="mt-1 w-5 h-5 text-green-500 shrink-0" />
+                                            <span>{item}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+                            )}
                         </section>
                         <aside className="lg:col-span-1 order-1 lg:order-2"></aside>
                     </div>

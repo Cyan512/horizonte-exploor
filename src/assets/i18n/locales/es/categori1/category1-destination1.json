@@ -68,5 +68,12 @@
             "Almuerzo buffet en el Valle Sagrado"
         ],
         "excludes": ["Alimentación no mencionada", "Bebidas alcohólicas y snacks", "Propinas"]
+    },
+    "recommendations": {
+        "schedule": [
+            "Llevar ropa cómoda, bloqueador solar, sombrero y cámara.",
+            "Portar documento de identidad o pasaporte.",
+            "Llegar 24 hrs antes del tour para aclimatación."
+        ]
     }
 }
