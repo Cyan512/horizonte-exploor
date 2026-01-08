@@ -3,9 +3,12 @@ import { useTranslation } from "react-i18next";
 import { TourMockV1 } from "@/data/TourMockV1";
 import { assets } from "@/assets/img";
 import { Star, CircleCheckBig } from "lucide-react";
+import { Collapse } from "react-collapse";
+import React, { useState } from "react";
 
 export default function PageTourDetail() {
     const { category, tourSlug } = useParams();
+    const [isDayOpen, setIsDayOpen] = useState(null);
 
     // usamos el namespace dinámico
     const { t } = useTranslation(tourSlug);
@@ -15,8 +18,13 @@ export default function PageTourDetail() {
         (d) => d.path === tourSlug
     );
 
+    const toggleDay = (index) => {
+        setIsDayOpen(isDayOpen === index ? null : index);
+    };
+
     const imageKey = t("img", { returnObjects: false });
     const contents = t("content", { returnObjects: true });
+    const days = t("days", { returnObjects: true });
 
     if (!tour) {
         return <p>Tour no encontrado</p>;
@@ -53,10 +61,9 @@ export default function PageTourDetail() {
                                     4.8
                                 </span>
                             </div>
-
                             {Array.isArray(contents) &&
                                 contents.map((section, index) => (
-                                    <div key={index} className="space-y-4">
+                                    <div key={index} className="space-y-6">
                                         <h2 className="font-family-heading text-3xl sm:text-4xl font-semibold text-title leading-tight">
                                             {section.title}
                                         </h2>
@@ -87,8 +94,45 @@ export default function PageTourDetail() {
                                             ))}
                                     </div>
                                 ))}
-
-                            <div></div>
+                            <div>
+                                {Array.isArray(days) &&
+                                    days.map((day, idx) => (
+                                        <React.Fragment key={idx}>
+                                            <button
+                                                onClick={() => toggleDay(idx)}
+                                                className={`w-full flex justify-between items-center px-5 py-4 mb-2 text-left rounded-xl transition-all duration-300 ${isDayOpen === idx ? "bg-primary/10 shadow-md" : "bg-white hover:bg-gray-100"}`}
+                                            >
+                                                <span className="font-family-heading text-2xl sm:text-3xl font-semibold text-title">
+                                                    {day.title}
+                                                </span>
+                                                <span
+                                                    className="text-3xl font-bold transition-transform duration-300"
+                                                    style={{
+                                                        transform:
+                                                            isDayOpen === idx
+                                                                ? "rotate(45deg)"
+                                                                : "rotate(0deg)",
+                                                    }}
+                                                >
+                                                    +
+                                                </span>
+                                            </button>
+                                            <Collapse isOpened={isDayOpen === idx}>
+                                                <div className="bg-white border border-gray-200 rounded-xl p-5 mb-4 shadow-sm transition-all duration-300">
+                                                    {Array.isArray(day.description) &&
+                                                        day.description.map((text, index) => (
+                                                            <p
+                                                                key={index}
+                                                                className="text-base sm:text-lg font-normal leading-relaxed text-gray-600 mb-3"
+                                                            >
+                                                                {text}
+                                                            </p>
+                                                        ))}
+                                                </div>
+                                            </Collapse>
+                                        </React.Fragment>
+                                    ))}
+                            </div>
                         </section>
 
                         <aside className="lg:col-span-1 order-1 lg:order-2"></aside>

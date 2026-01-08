@@ -9,51 +9,52 @@
                 "Durante el tour visitarás templos sagrados, impresionantes fortalezas incas y construcciones coloniales que reflejan la fusión de dos culturas. Acompañado por un guía profesional, conocerás detalles fascinantes de cada lugar mientras disfrutas de un paisaje único en el corazón de los Andes.",
                 "Prepárate para una experiencia llena de historia, cultura y asombro en cada rincón de Cusco."
             ]
-        },
+        }
+    ],
+    "days": [
         {
-            "title": "DÍA 1: BIENVENIDA Y CITY TOUR EN CUSCO",
+            "day": 1,
+            "title": "Bienvenida y City Tour en Cusco",
             "subtitle": "Machu Picchu",
             "description": [
                 "Machu Picchu, conocida como la Maravilla del Mundo Moderno, es el legado más impresionante de la civilización inca. Ubicada en la cima de una majestuosa montaña a 2,430 m s. n. m., esta ciudadela combina arquitectura, historia y naturaleza en un escenario único.",
                 "Descubierta en 1911, Machu Picchu sigue cautivando a viajeros de todo el mundo por su belleza mística y su perfección arquitectónica. Durante tu visita, recorrerás sus templos, terrazas agrícolas, recintos ceremoniales y miradores que ofrecen vistas inigualables del paisaje andino.",
                 "Cada rincón de Machu Picchu cuenta una historia que te transportará al tiempo de los incas, convirtiendo esta experiencia en un recuerdo inolvidable."
             ],
-            "details": {
-                "checked": [
-                    "07:00 – 11:00: Llegada a Cusco y traslado al hotel. Tiempo para aclimatación.",
-                    "13:00 – 18:30: City Tour: Catedral, Qoricancha (Templo del Sol), Sacsayhuamán, Qenqo, Puka Pukara y Tambomachay.",
-                    "Noche: Cena libre y pernocte en Cusco."
-                ]
-            }
+            "schedule": [
+                "07:00 – 11:00: Llegada a Cusco y traslado al hotel. Tiempo para aclimatación.",
+                "13:00 – 18:30: City Tour: Catedral, Qoricancha (Templo del Sol), Sacsayhuamán, Qenqo, Puka Pukara y Tambomachay.",
+                "Noche: Cena libre y pernocte en Cusco."
+            ]
         },
         {
-            "title": "DÍA 2: MACHU PICCHU – MARAVILLA DEL MUNDO",
+            "day": 2,
+            "title": "Machu Picchu – Maravilla del Mundo",
             "subtitle": "Machu Picchu",
             "description": [
                 "Machu Picchu, conocida como la Maravilla del Mundo Moderno, es el legado másimpresionante de la civilización inca. Ubicada en la cima de una majestuosa montaña a 2,430 m s. n. m., esta ciudadela combina arquitectura, historia y naturaleza en un escenario único.",
                 "Descubierta en 1911, Machu Picchu sigue cautivando a viajeros de todo el mundo por su belleza mística y su perfección arquitectónica. Durante tu visita, recorrerás sus templos, terrazas agrícolas, recintos ceremoniales y miradores que ofrecen vistas inigualables del paisaje andino.",
                 "Cada rincón de Machu Picchu cuenta una historia que te transportará al tiempo de los incas, convirtiendo esta experiencia en un recuerdo inolvidable."
             ],
-            "details": {
-                "checked": [
-                    "04:00: Traslado a Ollantaytambo.",
-                    "06:00: Tren panorámico hacia Aguas Calientes.",
-                    "07:30: Bus a Machu Picchu.",
-                    "08:00 – 11:00: Tour guiado por Machu Picchu (2 horas aprox.).",
-                    "12:00 – 14:00: Tiempo libre en la ciudadela.",
-                    "16:00: Retorno en tren y traslado a Cusco.",
-                    "Noche: Descanso en Cusco."
-                ]
-            }
+            "schedule": [
+                "04:00: Traslado a Ollantaytambo.",
+                "06:00: Tren panorámico hacia Aguas Calientes.",
+                "07:30: Bus a Machu Picchu.",
+                "08:00 – 11:00: Tour guiado por Machu Picchu (2 horas aprox.).",
+                "12:00 – 14:00: Tiempo libre en la ciudadela.",
+                "16:00: Retorno en tren y traslado a Cusco.",
+                "Noche: Descanso en Cusco."
+            ]
         },
         {
-            "title": "DÍA 3: VALLE SAGRADO Y RETORNO",
-            "details": {
-                "checked": [
-                    "07:00 – 16:00: Excursión al Valle Sagrado: Pisac, Urubamba (almuerzo buffet), Ollantaytambo.",
-                    "16:30: Retorno a Cusco y traslado al aeropuerto."
-                ]
-            }
+            "day": 3,
+            "title": "Valle Sagrado y Retorno",
+            "subtitle": "",
+            "description": [],
+            "schedule": [
+                "07:00 – 16:00: Excursión al Valle Sagrado: Pisac, Urubamba (almuerzo buffet), Ollantaytambo.",
+                "16:30: Retorno a Cusco y traslado al aeropuerto."
+            ]
         }
     ]
 }
