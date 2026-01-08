@@ -56,5 +56,17 @@
                 "16:30: Retorno a Cusco y traslado al aeropuerto."
             ]
         }
-    ]
+    ],
+    "tourDetails": {
+        "includes": [
+            "Traslados aeropuerto – hotel – aeropuerto",
+            "Transporte turístico durante los tours",
+            "Tickets de ingreso (Boleto Turístico y Machu Picchu)",
+            "Tren panorámico a Machu Picchu",
+            "Guía profesional en español",
+            "2 noches de hotel en Cusco con desayuno",
+            "Almuerzo buffet en el Valle Sagrado"
+        ],
+        "excludes": ["Alimentación no mencionada", "Bebidas alcohólicas y snacks", "Propinas"]
+    }
 }
