@@ -26,5 +26,13 @@
     "common.night.singular": "Noche",
     "common.night.plural": "Noches",
     "common.recommendations": "Recomendaciones",
+    "common.search": "Buscar",
+    "common.home": "Inicio",
+    "common.about": "Sobre Nosotros",
+    "common.destination": "Destinos",
+    "common.contact": "Contactanos",
+    "common.language": "Idioma",
+    "common.es": "Español",
+    "common.en": "Ingles",
     "learnMore": "Conoce más"
 }
