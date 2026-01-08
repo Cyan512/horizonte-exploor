@@ -27,12 +27,15 @@ export default function PageTourDetail() {
 
     return (
         <>
-            <section>
-                <div>
-                    <h1>{t("title")}</h1>
+            <section className="relative bg-linear-to-r from-title to-primary py-20 sm:py-28">
+                <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+                    <h1 className="font-family-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight max-w-4xl">
+                        {t("title")}
+                    </h1>
                 </div>
             </section>
-            <main>
+
+            <main className="lg:mt-12">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                         <section className="lg:col-span-2 order-2 lg:order-1 space-y-10">

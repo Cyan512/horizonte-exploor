@@ -1,3 +1,90 @@
 {
-    "title": "Tour a Waqrapukara"
+    "title": "Tour a Waqrapukara",
+    "img": "img_30",
+    "content": [
+        {
+            "title": "",
+            "description": []
+        }
+    ],
+    "days": [
+        {
+            "day": 1,
+            "title": "Inicio del Tour – Cusco",
+            "description": [
+                "Recojo de los hoteles del centro histórico de Cusco.",
+                "Salida hacia el sur del Cusco, pasando por los pueblos tradicionales de Sangarará y Pomacanchi, con paisajes andinos de gran belleza."
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Desayuno en Ruta",
+            "description": [
+                "Parada en un restaurante local para disfrutar un desayuno típico andino antes de iniciar la caminata."
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Inicio de la Caminata",
+            "description": [
+                "Llegada al punto de inicio del trekking, en la comunidad de Santa Lucía o Campi (dependiendo de la ruta).",
+                "Desde aquí inicia la caminata hacia Waqrapukara, con una duración aproximada de 2 a 3 horas",
+                "Durante el ascenso se pueden apreciar valles profundos, formaciones rocosas, llamas, alpacas y el impresionante paisaje del Cañón del Apurímac."
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Llegada al Complejo Arqueológico de Waqrapukara",
+            "description": [
+                "Exploración guiada por el sitio arqueológico.",
+                "Waqrapukara, cuyo nombre significa “Fortaleza con Cuernos”, fue un centro ceremonial y estratégico inca, construido en una zona de difícil acceso y gran importancia espiritual.",
+                "El guía explicará su historia, función religiosa y los mitos asociados a este lugar.",
+                "Tiempo libre para descansar, tomar fotografías y disfrutar del entorno natural."
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Almuerzo tipo Box Lunch",
+            "description": ["Disfrute de un almuerzo tipo box lunch con vista panorámica al cañón."]
+        },
+        {
+            "day": 6,
+            "title": "Retorno",
+            "description": [
+                "Inicio del descenso hacia el punto de partida, donde espera el transporte turístico.",
+                "Viaje de regreso a la ciudad del Cusco."
+            ]
+        },
+        {
+            "day": 7,
+            "title": "Llegada a Cusco",
+            "description": [
+                "Arribo aproximado entre 6:00 y 7:00 p.m.",
+                "Fin del tour en el centro histórico."
+            ]
+        }
+    ],
+    "tourDetails": {
+        "includes": [
+            "Transporte turístico ida y vuelta",
+            "Guía profesional en español/inglés",
+            "Desayuno y almuerzo box lunch",
+            "Bastones de caminata (opcional)",
+            "Asistencia personalizada"
+        ],
+        "excludes": [
+            "Entrada al sitio arqueológico (S/ 10.00 aprox.)",
+            "Propinas y gastos personales"
+        ]
+    },
+    "recommendations": {
+        "schedule": [
+            "Llevar ropa cómoda, abrigo y poncho para lluvia",
+            "Zapatos de trekking o resistentes",
+            "Bloqueador solar, sombrero y gafas de sol",
+            "Botella de agua y snacks",
+            "Cámara o celular con batería cargada",
+            "Hojas o caramelos de coca para la altura"
+        ]
+    }
 }
