@@ -32,7 +32,7 @@ export default function PageTourDetail() {
             <main>
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                        <section className="lg:col-span-2 order-2 lg:order-1 space-y-10">
+                        <section className="lg:col-span-2 order-2 lg:order-1 space-y-8">
                             <figure className="relative w-full h-60 sm:h-80 lg:h-105 overflow-hidden rounded-lg">
                                 <img
                                     src={assets[imageKey]}
@@ -45,19 +45,23 @@ export default function PageTourDetail() {
                                     Featured
                                 </span>
                                 <span className="flex items-center gap-3 rounded-full px-4 py-1.5 text-base leading-6.5 font-normal bg-primary/10">
-                                    <Star className="text-yellow-400 w-5 h-5" fill="currentColor" />
+                                    <Star
+                                        className="text-yellow-400 w-5 h-5"
+                                        fill="currentColor"
+                                        stroke="none"
+                                    />
                                     4.8
                                 </span>
                             </div>
 
                             {Array.isArray(contents) &&
                                 contents.map((section, index) => (
-                                    <div key={index} className="space-y-8">
+                                    <div key={index} className="space-y-4">
                                         <h2 className="font-family-heading text-3xl sm:text-4xl font-semibold text-title leading-tight">
                                             {section.title}
                                         </h2>
                                         {Array.isArray(section.details?.checked) && (
-                                            <ul className="space-y-3 rounded-xl p-6 border border-slate-200">
+                                            <ul className="space-y-3 rounded-lg p-6 border border-slate-200">
                                                 {section.details.checked.map((item, idx) => (
                                                     <li
                                                         key={idx}
@@ -83,6 +87,8 @@ export default function PageTourDetail() {
                                             ))}
                                     </div>
                                 ))}
+
+                            <div></div>
                         </section>
 
                         <aside className="lg:col-span-1 order-1 lg:order-2"></aside>
