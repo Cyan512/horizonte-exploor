@@ -1,3 +1,30 @@
 {
-    "title": "Montaña de Colores (Full Day)"
+    "title": "Montaña de Colores (Full Day)",
+    "img": "",
+
+    "content": [
+        {
+            "title": "",
+            "description": []
+        }
+    ],
+
+    "days": [
+        {
+            "day": 1,
+            "title": "",
+            "subtitle": "",
+            "description": [],
+            "schedule": []
+        }
+    ],
+
+    "tourDetails": {
+        "includes": [],
+        "excludes": []
+    },
+
+    "recommendations": {
+        "schedule": []
+    }
 }

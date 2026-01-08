@@ -1,3 +1,30 @@
 {
-    "title": "Tour Completo Montaña de 7 Colores en Cuatrimoto"
+    "title": "Tour Completo Montaña de 7 Colores en Cuatrimoto",
+    "img": "",
+
+    "content": [
+        {
+            "title": "",
+            "description": []
+        }
+    ],
+
+    "days": [
+        {
+            "day": 1,
+            "title": "",
+            "subtitle": "",
+            "description": [],
+            "schedule": []
+        }
+    ],
+
+    "tourDetails": {
+        "includes": [],
+        "excludes": []
+    },
+
+    "recommendations": {
+        "schedule": []
+    }
 }

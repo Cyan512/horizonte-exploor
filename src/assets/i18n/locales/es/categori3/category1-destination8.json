@@ -1,3 +1,30 @@
 {
-    "title": "Ruta del Misterio: Humedal de Huasao & Duendes"
+    "title": "Ruta del Misterio: Humedal de Huasao & Duendes",
+    "img": "",
+
+    "content": [
+        {
+            "title": "",
+            "description": []
+        }
+    ],
+
+    "days": [
+        {
+            "day": 1,
+            "title": "",
+            "subtitle": "",
+            "description": [],
+            "schedule": []
+        }
+    ],
+
+    "tourDetails": {
+        "includes": [],
+        "excludes": []
+    },
+
+    "recommendations": {
+        "schedule": []
+    }
 }

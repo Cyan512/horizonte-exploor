@@ -1,3 +1,30 @@
 {
-    "title": "Tour Maras – Moray – Salineras"
+    "title": "Tour Maras – Moray – Salineras",
+    "img": "",
+
+    "content": [
+        {
+            "title": "",
+            "description": []
+        }
+    ],
+
+    "days": [
+        {
+            "day": 1,
+            "title": "",
+            "subtitle": "",
+            "description": [],
+            "schedule": []
+        }
+    ],
+
+    "tourDetails": {
+        "includes": [],
+        "excludes": []
+    },
+
+    "recommendations": {
+        "schedule": []
+    }
 }

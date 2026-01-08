@@ -1,3 +1,30 @@
 {
-    "title": "Tour 7 Lagunas de Ausangate – Full Day"
+    "title": "Tour 7 Lagunas de Ausangate – Full Day",
+    "img": "",
+
+    "content": [
+        {
+            "title": "",
+            "description": []
+        }
+    ],
+
+    "days": [
+        {
+            "day": 1,
+            "title": "",
+            "subtitle": "",
+            "description": [],
+            "schedule": []
+        }
+    ],
+
+    "tourDetails": {
+        "includes": [],
+        "excludes": []
+    },
+
+    "recommendations": {
+        "schedule": []
+    }
 }

@@ -1,3 +1,30 @@
 {
-    "title": "Tour Q’eswachaka – Puente Inca de Sogas"
+    "title": "Tour Q’eswachaka – Puente Inca de Sogas",
+    "img": "",
+
+    "content": [
+        {
+            "title": "",
+            "description": []
+        }
+    ],
+
+    "days": [
+        {
+            "day": 1,
+            "title": "",
+            "subtitle": "",
+            "description": [],
+            "schedule": []
+        }
+    ],
+
+    "tourDetails": {
+        "includes": [],
+        "excludes": []
+    },
+
+    "recommendations": {
+        "schedule": []
+    }
 }
