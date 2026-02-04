@@ -9,7 +9,7 @@ export const TourMockV1 = [
                 path: "category1-destination1",
                 days: 3,
                 nights: 2,
-                discount: 20,
+                discount: 30,
                 price: 3890,
             },
             {

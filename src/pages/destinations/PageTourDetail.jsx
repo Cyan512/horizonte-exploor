@@ -21,6 +21,8 @@ export default function PageTourDetail() {
     const tourDetails = t("tourDetails", { returnObjects: true });
     const recommendations = t("recommendations", { returnObjects: true });
 
+    console.log("value", contents);
+
     if (!tour) {
         return <p>Tour no encontrado</p>;
     }

@@ -21,6 +21,7 @@ function DestinationPage() {
         value: t(e.title),
     }));
 
+
     const filteredByCategory =
         selectedCategory === "all"
             ? TourMockV1.flatMap((cat) =>

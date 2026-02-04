@@ -1,14 +1,12 @@
 {
     "title": "Laguna Humantay (Full Day)",
     "img": "",
-
     "content": [
         {
             "title": "",
             "description": []
         }
     ],
-
     "days": [
         {
             "day": 1,
@@ -18,12 +16,10 @@
             "schedule": []
         }
     ],
-
     "tourDetails": {
         "includes": [],
         "excludes": []
     },
-
     "recommendations": {
         "schedule": []
     }

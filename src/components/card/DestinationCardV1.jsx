@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function DestinationCardV1({ data }) {
     const { t } = useTranslation("global");
     return (
-        <div className="group bg-white rounded-lg overflow-hidden transition-all duration-300 border border-slate-300 max-w-sm">
+        <div className="group bg-white rounded-3xl overflow-hidden transition-all duration-300 border border-slate-300 max-w-sm">
             <div className="relative h-52 overflow-hidden">
                 <img
                     src={assets[data.img]}

@@ -40,7 +40,6 @@ const TravelHeader = () => {
                                 {({ isActive }) => (
                                     <div className="group inline-flex flex-col items-start py-2 text-base font-medium">
                                         {t(nav.label)}
-
                                         <span
                                             className={cn(
                                                 "mt-1 h-[2px] w-full bg-title origin-left transition-transform duration-300",

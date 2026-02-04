@@ -1,4 +1,4 @@
-import { assets } from "@/assets/img";
+    import { assets } from "@/assets/img";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
@@ -7,7 +7,7 @@ export default function HomeSection1() {
     return (
         <section
             className="relative min-h-screen bg-cover bg-center flex items-center"
-            style={{ backgroundImage: `url(${assets.hero_bg_1_1})` }}
+            style={{ backgroundImage: `url(${assets.img_17})` }}
         >
             <div className="absolute inset-0 bg-black/40" />
 

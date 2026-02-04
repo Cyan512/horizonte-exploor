@@ -1,29 +1,35 @@
 {
     "title": "Tour Salkantay Trek a Machu Picchu – 5 Días / 4 Noches",
-    "img": "",
-
+    "day": {
+        "day": 5,
+        "night": 4
+    },
+    "imgs": [],
     "content": [
         {
             "title": "",
             "description": []
         }
     ],
-
     "days": [
         {
             "day": 1,
             "title": "",
+            "detalles": [
+                {
+                    "subtitle": "",
+                    "description": []
+                }
+            ],
             "subtitle": "",
             "description": [],
             "schedule": []
         }
     ],
-
     "tourDetails": {
         "includes": [],
         "excludes": []
     },
-
     "recommendations": {
         "schedule": []
     }
